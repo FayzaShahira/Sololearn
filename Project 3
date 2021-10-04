@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Program
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String text = scanner.nextLine();
+		char[] arr = text.toCharArray();
+		
+		//your code goes here
+		int name=arr.length;
+		String x="";
+       for(int i=name-1 ; i>-1 ; i--){
+		   x=x+arr[i];
+	   }		 
+	   System.out.println(x);
+	}
+}
